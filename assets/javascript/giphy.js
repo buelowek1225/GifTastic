@@ -54,10 +54,6 @@
                 $(this).attr("src", stillUrl);
                 $(this).attr("data-state", "still")
             }
-            console.log(animatedURL);
-            console.log(state);
-            console.log (stillUrl);
-        
                 
         })
 

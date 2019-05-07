@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <!-- CSS Style Sheet link 
-    <link rel="stylesheet" href="assets/css/style.css"/> -->
+    <!-- CSS Style Sheet link  -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     
     <style type="text/css">
         button,
@@ -31,12 +33,15 @@
     <title>GifTastic</title>
 </head>
 <body>
-    <div class = "container">
+    <div class = jumbotron>
+      <h1 style="font-weight:bold;">GifTastic</h1>
+    </div>
+    <div class = "container sitebody">
         <!-- Rendered Buttons will go here -->
         <div id="buttons-view"></div>
 
         <form id="animal-form">
-            <label for="animal-input">Add an animal!</label>
+            <label for="animal-input" style="font-weight:bold;">Add an animal!</label>
             <input type="text" id="animal-input"><br>
             <!--Button to add new animals to page  -->
             <input id="add-animal" type="submit" value="Submit">

@@ -1,0 +1,43 @@
+body  {
+    background-image: url("../images/black\ and\ white.jpg");
+    width: 100%;
+  }
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.container {
+    width: unset;
+    max-width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+#animal-view {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.animals {
+    outline-color: blueviolet;
+}
