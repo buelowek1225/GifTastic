@@ -15,3 +15,5 @@ I should have spent more time learning about the API before I began. Partway thr
 Most of my problems originated from issues with the scope of how I set up my functions and/or if/then statements.
 
 The in class assignments helped provide alot of direction with this assignment.
+
+GitHub Link: https://buelowek1225.github.io/GifTastic/
